@@ -17,7 +17,7 @@ REVIVAL_BRAIN_LIFE -1
 ## RENAMING ###
 
 ## Uncomment to allow cyborgs to rename themselves at roundstart.  Has no effect on roboticists renaming cyborgs the normal way.
-#RENAME_CYBORG
+RENAME_CYBORG
 
 ## OOC DURING ROUND ###
 ## Comment this out if you want OOC to be automatically disabled during the round, it will be enabled during the lobby and after the round end results.
@@ -25,7 +25,7 @@ OOC_DURING_ROUND
 
 ## EMOJI ###
 ## Comment this out if you want to disable emojis
-EMOJIS
+##EMOJIS
 
 ## MOB MOVEMENT ###
 
@@ -37,7 +37,7 @@ EMOJIS
 ## To speed things up make the number negative, to slow things down, make the number positive.
 
 ## These modify the run/walk speed of all mobs before the mob-specific modifiers are applied.
-RUN_DELAY 1
+RUN_DELAY 2
 WALK_DELAY 4
 
 ## The variables below affect the movement of specific mob types.
@@ -76,15 +76,15 @@ ALERT_DELTA Destruction of the station is imminent. All crew are instructed to o
 ## Default probablity is 1, increase to make that mode more likely to be picked.
 ## Set to 0 to disable that mode.
 
-PROBABILITY TRAITOR 5
-PROBABILITY TRAITORBRO 2
-PROBABILITY TRAITORCHAN 4
+PROBABILITY TRAITOR 6
+PROBABILITY TRAITORBRO 5
+PROBABILITY TRAITORCHAN 3
 PROBABILITY INTERNAL_AFFAIRS 3
 PROBABILITY NUCLEAR 2
 PROBABILITY REVOLUTION 2
 PROBABILITY CULT 2
 PROBABILITY CHANGELING 2
-PROBABILITY WIZARD 4
+PROBABILITY WIZARD 3
 PROBABILITY MONKEY 0
 PROBABILITY METEOR 0
 PROBABILITY EXTENDED 0
@@ -97,7 +97,7 @@ PROBABILITY SANDBOX 0
 
 ## Percent weight reductions for three of the most recent modes
 
-REPEATED_MODE_ADJUST 45 30 10
+REPEATED_MODE_ADJUST 55 40 10
 
 ## Toggles for continuous modes.
 ## Modes that aren't continuous will end the instant all antagonists are dead.
@@ -219,13 +219,13 @@ BROTHER_OBJECTIVES_AMOUNT 2
 
 ## Uncomment to prohibit jobs that start with loyalty
 ## implants from being most antagonists.
-#PROTECT_ROLES_FROM_ANTAGONIST
+PROTECT_ROLES_FROM_ANTAGONIST
 
 ## Uncomment to prohibit assistants from becoming most antagonists.
 #PROTECT_ASSISTANT_FROM_ANTAGONIST
 
 ## If non-human species are barred from joining as a head of staff
-#ENFORCE_HUMAN_AUTHORITY
+ENFORCE_HUMAN_AUTHORITY
 
 ## If late-joining players have a chance to become a traitor/changeling
 ALLOW_LATEJOIN_ANTAGONISTS
@@ -294,7 +294,7 @@ SEC_START_BRIG
 
 ## GHOST INTERACTION ###
 ## Uncomment to let ghosts spin chairs. You may be wondering why this is a config option. Don't ask.
-#GHOST_INTERACTION
+GHOST_INTERACTION
 
 ## NON-VOCAL SILICONS ###
 ## Uncomment these to stop the AI, or cyborgs, from having vocal communication.
@@ -314,7 +314,7 @@ SEC_START_BRIG
 ## Set to 1 for "custom", silicons will start with the custom laws defined in silicon_laws.txt. (If silicon_laws.txt is empty, the AI will spawn with asimov and Custom boards will auto-delete.)
 ## Set to 2 for "random", silicons will start with a random lawset picked from random laws specified below.
 ## Set to 3 for "weighted random", using values in "silicon_weights.txt", a law will be selected, with weights specifed in that file.
-DEFAULT_LAWS 0
+DEFAULT_LAWS 3
 
 ## RANDOM LAWS ##
 ## ------------------------------------------------------------------------------------------
@@ -354,19 +354,19 @@ RANDOM_LAWS corporate
 LAW_WEIGHT custom,0
 
 ## standard-ish laws. These are fairly ok to run
-LAW_WEIGHT asimov,32
-LAW_WEIGHT asimovpp,12
-LAW_WEIGHT paladin,12
-LAW_WEIGHT robocop,12
-LAW_WEIGHT corporate,12
+LAW_WEIGHT asimov,50
+LAW_WEIGHT asimovpp,1
+LAW_WEIGHT paladin,1
+LAW_WEIGHT robocop,2
+LAW_WEIGHT corporate,18
 
 ## Quirky laws. Shouldn't cause too much harm
-LAW_WEIGHT hippocratic,3
-LAW_WEIGHT maintain,4
-LAW_WEIGHT drone,3
-LAW_WEIGHT liveandletlive,3
-LAW_WEIGHT peacekeeper,3
-LAW_WEIGHT reporter,4
+LAW_WEIGHT hippocratic,1
+LAW_WEIGHT maintain,1
+LAW_WEIGHT drone,0
+LAW_WEIGHT liveandletlive,0
+LAW_WEIGHT peacekeeper,2
+LAW_WEIGHT reporter,2
 
 ## Bad idea laws. Probably shouldn't enable these
 LAW_WEIGHT syndie,0

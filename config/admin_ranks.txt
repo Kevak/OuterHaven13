@@ -30,14 +30,16 @@
 # +EVERYTHING (or +HOST or +ALL) = Simply gives you everything without having to type every flag
 # END_KEYWORDS
 
-Admin Observer
-Moderator		= +ADMIN
-Admin Candidate	= +@
-Trial Admin		= +@ +SPAWN +VAREDIT +BAN
-Badmin			= +@ +POSSESS +POLL +BUILDMODE +SERVER +FUN
-Game Admin		= +@ +STEALTH +SOUNDS +DEBUG
-Game Master		= +EVERYTHING
 
+Admin Candidate	= +@
+
+Moderator		= +ADMIN +BAN
+
+Administrator	= +@ +STEALTH +DEBUG +SPAWN +VAREDIT
+Primarymin		= +@ +STEALTH +DEBUG +SPAWN +VAREDIT +POSSESS +POLL +FUN +BAN
+Seniormin		= +@ +STEALTH +SOUNDS +DEBUG +SPAWN +VAREDIT +POSSESS +POLL +BUILDMODE +FUN +BAN
+
+Headmin			= +EVERYTHING
 Host			= +EVERYTHING
 
-Coder			= +DEBUG +VAREDIT +SERVER +SPAWN +POLL
+Maintainer		= +DEBUG +VAREDIT +SERVER +SPAWN +POLL
