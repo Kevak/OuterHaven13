@@ -1,13 +1,16 @@
 Agile
 Assassin
 Awesome
+Big
 Black
 Crimson
 Cruel
 Deep
-Dr 
+Doctor 
 Dragon
 Ender
+Edgy
+Gaseous
 Grandmaster
 Grappler
 Gray
@@ -43,4 +46,6 @@ Strider
 Striker
 Swift
 Ulimate
+Vengeful
 Widower
+Wanton

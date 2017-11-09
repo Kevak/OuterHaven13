@@ -29,6 +29,7 @@ Nice
 Helpful
 Rogue
 Spotted
+Lesser Spotted
 Deep Blue
 Quick
 Slow
@@ -77,3 +78,8 @@ Slimy
 Sweeping
 Twisted
 Crooked
+Shiny
+Fantabulous
+Traitorous
+Fishy
+Abusive
