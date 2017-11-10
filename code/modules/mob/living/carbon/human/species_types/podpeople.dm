@@ -13,7 +13,6 @@
 	disliked_food = MEAT | DAIRY
 	liked_food = VEGETABLES | FRUIT | GRAIN
 	toxic_food = MEAT | DAIRY
-	roundstart = TRUE
 
 /datum/species/pod/on_species_gain(mob/living/carbon/C, datum/species/old_species)
 	. = ..()
