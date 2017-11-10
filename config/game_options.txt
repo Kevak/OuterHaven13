@@ -365,7 +365,7 @@ LAW_WEIGHT hippocratic,1
 LAW_WEIGHT maintain,1
 LAW_WEIGHT drone,0
 LAW_WEIGHT liveandletlive,0
-LAW_WEIGHT peacekeeper,2
+LAW_WEIGHT peacekeeper,3
 LAW_WEIGHT reporter,2
 
 ## Bad idea laws. Probably shouldn't enable these
@@ -429,7 +429,7 @@ ASSISTANT_CAP -1
 #STARLIGHT
 
 ## Uncomment to bring back old grey suit assistants instead of the now default rainbow colored assistants.
-#GREY_ASSISTANTS
+GREY_ASSISTANTS
 
 ## Midround Antag (aka Mulligan antag) config options ###
 
