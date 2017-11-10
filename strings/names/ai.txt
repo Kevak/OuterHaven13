@@ -11,7 +11,6 @@ Alpha 7
 AM
 AMEE
 AmigoBot
-Apple
 Android
 Aniel
 Asimov
@@ -27,6 +26,7 @@ Blitz
 Box
 Brackenridge
 Bumblebee
+Byond
 C-3PO
 Cassandra One
 Cell
@@ -80,7 +80,6 @@ L-76
 L-Ron
 Louie
 LUH 3417
-MacOS
 Maria
 MARK13
 Marvin
