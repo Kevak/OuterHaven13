@@ -2624,9 +2624,6 @@
 	pixel_x = -4
 	},
 /obj/structure/table,
-/obj/item/wirecutters/power{
-	step_y = 28
-	},
 /turf/open/floor/plasteel/black,
 /area/security/armory)
 "ain" = (
