@@ -43,7 +43,7 @@ Moderator		= +@ +BAN
 
 
 ## Admin Ranks
-Administrator	= +@ +STEALTH +DEBUG +SPAWN +VAREDIT
+Administrator	= +@ +STEALTH +DEBUG +SPAWN +VAREDIT +BAN
 Primarymin		= +@ +STEALTH +DEBUG +SPAWN +VAREDIT +POSSESS +POLL +FUN +BAN
 Seniormin 		= +@ +STEALTH +SOUNDS +DEBUG +SPAWN +VAREDIT +POSSESS +POLL +BUILDMODE +FUN +BAN
 
