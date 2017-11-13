@@ -31,15 +31,27 @@
 # END_KEYWORDS
 
 
-Admin Candidate	= +@
 
-Moderator		= +ADMIN +BAN
+## Trial Ranks
+Admin Observer  = +@
+Admin Candidate = +@
 
-Administrator	= +@ +STEALTH +DEBUG +SPAWN +VAREDIT
+
+## Junior Ranks
+TrialModerator	= +@ +BAN
+Moderator		= +@ +BAN
+
+
+## Admin Ranks
+Administrator	= +@ +STEALTH +DEBUG +SPAWN +VAREDIT +BAN
 Primarymin		= +@ +STEALTH +DEBUG +SPAWN +VAREDIT +POSSESS +POLL +FUN +BAN
-Seniormin		= +@ +STEALTH +SOUNDS +DEBUG +SPAWN +VAREDIT +POSSESS +POLL +BUILDMODE +FUN +BAN
+Seniormin 		= +@ +STEALTH +SOUNDS +DEBUG +SPAWN +VAREDIT +POSSESS +POLL +BUILDMODE +FUN +BAN
 
 Headmin			= +EVERYTHING
 Host			= +EVERYTHING
 
+## Coder Ranks
 Maintainer		= +DEBUG +VAREDIT +SERVER +SPAWN +POLL
+
+## Reserve Ranks
+Reservemin	= +@ +STEALTH +DEBUG +SPAWN +VAREDIT +BAN

@@ -280,7 +280,7 @@
 		new /obj/item/gun/energy/laser(src)
 
 /obj/structure/closet/secure_closet/tac
-	name = "armory tac locker"
+	name = "\improper NanoTransen Tactical-Surplus Locker"
 	req_access = list(ACCESS_ARMORY)
 	icon_state = "tac"
 
@@ -292,7 +292,7 @@
 	new /obj/item/clothing/suit/armor/bulletproof(src)
 
 /obj/structure/closet/secure_closet/lethalshots
-	name = "shotgun lethal rounds"
+	name = "Shotgun Lethal Ammunition Locker"
 	req_access = list(ACCESS_ARMORY)
 	icon_state = "tac"
 
@@ -300,3 +300,15 @@
 	..()
 	for(var/i in 1 to 3)
 		new /obj/item/storage/box/lethalshot(src)
+
+/obj/structure/closet/secure_closet/ntmilitarygrade
+	name = "\improper NanoTransen Military-Surplus Locker"
+	req_access = list(ACCESS_ARMORY)
+	icon_state = "tac"
+
+/obj/structure/closet/secure_closet/ntmilitarygrade/PopulateContents()
+	..()
+	for(var/i in 1 to 3)
+		new /obj/item/gun/ballistic/automatic/laser(src)
+	for(var/i in 2 to 4)
+		new /obj/item/ammo_box/magazine/recharge/(src)

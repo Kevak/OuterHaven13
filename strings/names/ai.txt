@@ -3,6 +3,7 @@
 7-Zark-7
 790
 Adaptive Manipulator
+AdministrateOS
 Allied Mastercomputer
 Alpha 5
 Alpha 6
@@ -24,6 +25,8 @@ Bishop
 Blitz
 Box
 Brackenridge
+Bumblebee
+Byond
 C-3PO
 Cassandra One
 Cell
@@ -40,6 +43,7 @@ Dor-15
 Dorfl
 Dot Matrix
 Duey
+Digitron-9000
 E D I 
 E-Man
 ED-209
@@ -94,6 +98,7 @@ Norby
 OMM 0910
 Optimus
 Orange v 3 5
+Paperclip
 Project 2501
 PTO
 R I C 2 0
@@ -116,11 +121,13 @@ Solo
 Soundwave
 Speedy
 Super 17
+Skynet
 Surgeon General Kraken
 T-1000
 T-800
 T-850
 Terminus
+Terminal
 THX 1138
 Tidy
 Tik-Tok
@@ -141,6 +148,7 @@ XR
 Yod
 Z-1
 Z-2
-Z-3
+Z-2.5
+Z-3PO
 Zed
 Zord
